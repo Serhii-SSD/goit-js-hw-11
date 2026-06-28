@@ -6,13 +6,6 @@ body {
   padding: 24px;
 }
 
-box-sizing: border-box;
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-
 .form {
   display: flex;
   justify-content: center;
