@@ -1,14 +1,3 @@
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
-
-/* Sections style */
-/* @import url('./1-timer.css');
-@import url('./2-snackbar.css'); */
-
 body {
   font-family: 'Montserrat', sans-serif;
   background-color: #fafafa;
