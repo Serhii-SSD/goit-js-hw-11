@@ -3,19 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Homework №10</title>
+    <title>Homework №11</title>
     <link rel="icon" href="/goit-js-hw-11/assets/favicon-DmR-1xm_.ico" />
 
-    <link rel="stylesheet" crossorigin href="/goit-js-hw-11/assets/index-Cz4wCApH.css">
+    <script type="module" crossorigin src="/goit-js-hw-11/index.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-11/assets/vendor-CFFvTae-.js">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-11/assets/vendor-CWKLx11g.css">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-11/assets/index-Cu4iBCMb.css">
   </head>
   <body>
     <main>
-       
-      <ul>
-         
-        <li><a href="./1-timer.html">Timer</a></li>
-        <li><a href="./2-snackbar.html">Snackbar</a></li>
-      </ul>
+      <form class="form">
+        <label>
+          <input
+            type="text"
+            name="search-text"
+            placeholder="Search images..."
+            required
+          />
+        </label>
+        <button type="submit">Search</button>
+      </form>
+      <span class="loader"></span>
+      <ul class="gallery"></ul>
     </main>
+
   </body>
 </html>
